@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2ba265cf07344337b8d2e133429bc652" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_sales_management_systemModel.TB_cat" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_sales_management_systemModel.TB_Supp" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="DB_sales_management_systemModel.TB_Pur" Width="1.5" PointX="5.625" PointY="0.75" />
+        <AssociationConnector Association="DB_sales_management_systemModel.FK_TB_Pur_TB_cat" />
+        <AssociationConnector Association="DB_sales_management_systemModel.FK_TB_Pur_TB_Supp" />
+        <EntityTypeShape EntityType="DB_sales_management_systemModel.TB_Cust" Width="1.5" PointX="1.875" PointY="4" />
+        <EntityTypeShape EntityType="DB_sales_management_systemModel.TB_Sell" Width="1.5" PointX="7.875" PointY="2.25" />
+        <EntityTypeShape EntityType="DB_sales_management_systemModel.TB_Users" Width="1.5" PointX="4.375" PointY="5.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
